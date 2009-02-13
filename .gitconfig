@@ -1,0 +1,16 @@
+[user]
+	name = Daniel Hüsch
+	email = daniel.huesch@gmail.com
+[alias]
+	st = status
+	ci = commit
+	co = checkout
+	br = branch
+	di = diff
+	iw = instaweb
+	foo = eenee
+	bar = meenee
+[instaweb]
+	httpd = webrick
+[color]
+	status = auto
