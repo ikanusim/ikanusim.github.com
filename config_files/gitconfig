@@ -8,8 +8,6 @@
 	br = branch
 	di = diff
 	iw = instaweb
-	foo = eenee
-	bar = meenee
 [instaweb]
 	httpd = webrick
 [color]
