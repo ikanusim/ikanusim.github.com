@@ -1,0 +1,19 @@
+---
+title: Me(di)tating
+layout: post
+---
+During the last few weeks I did a bunch of me(di)tation. This is, at least in part, a result of reading "Andy Hunt's":http://andy.pragprog.com/ book "Pragmatic Thinking & Learning":http://www.pragprog.com/titles/ahptl/pragmatic-thinking-and-learning. Metation is a neologism that came to my mind when writing this post and it means doing meta things. When the things you are metaing are thinking and learning, i.e. thinking about thinking and learning about learning, this tends to leave you in a meditative mood, so the pun is not that far-fetched after all.
+
+Right now there are many things I would like to learn. I got the feeling that maybe I even wanted to learn a little too much at a time. Furthermore I noticed that there are things on the list of things I would like to learn that I can't tell what exactly I want to learn them for. Fortunately, there is a chapter about "SMART objectives":http://en.wikipedia.org/wiki/SMART_%28project_management%29 in the book mentioned above.
+
+There are multiple words you can expand each letter to. The ones in the book are Specific, Measurable, Achievable, Relevant and Time-Boxed. SMART objectives force you to give answers to five questions about any learning endeavour you are about to begin. In doing so, something as vague as 'I want to learn skill X' is transformed into the more specific 'I want to reach the Y level of skill X in order to complete taks Z. My first steps to get there are a, b and c.'
+
+I defined my first set of goals a few days ago when I had to kill some hours on the train. This is highly experimental and it would be too embarrassing if I published these here right now and then don't achieve any. If the results are satisfying, I might blog about it later, though.
+
+The last section I read was about a technique called "SQ3R":http://en.wikipedia.org/wiki/SQ3R, which stands for Survey, Question, Read, Recite and Review. Instead of just picking a book and reading it, you are supposed to take a more sustainable approach. Scan the TOC and headings first, collect a list of questions you want yourself to be able to answer after having read the book. Then start reading and take notes along the way. When you are done, don't just put it back into the shelf. Discuss the contents with friends or co-workers. Get deeper into it by teaching it to someone else.
+
+I am just a little further than halfway through the book and I have already had so many light bulb moments that I felt that this book was targeted at me specifically more than once. On the other hand, there are almost too many good ideas and I honstely don't know which of these techniques will outlive the experimental stage. Some do indeed sound very promising or at least interesting. But the single most astonishing piece of wisdom I got out of this book is the first one of the tips that just reads
+
+bq. Always consider the context
+
+I greatly appreciate this one for two reasons. Firstly, because it is so true, and secondly, because it is so meta.

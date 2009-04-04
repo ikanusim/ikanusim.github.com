@@ -1,76 +1,13 @@
-<html>
-    <head>
-        <title>yousyne - coming syne</title>
-        <script>
-            var container_init_x;
-            var container_init_y;
-            var image_init_x;
-            var image_init_y;
-            
-            function start_animation()
-            {
-                var container = document.getElementById('container');
-                var image = document.getElementById('image');
-                
-                container_init_x = parseInt(container.style.left);
-                container_init_y = parseInt(container.style.top);
-                image_init_x = parseInt(image.style.left);
-                image_init_y = parseInt(image.style.top);
-                
-                animate(0);
-            }
-        
-            function animate(phase)
-            {
-                var container = document.getElementById('container');
-                var image = document.getElementById('image');
-                var image_x = image_init_x;
-                var image_y = image_init_y;
-                var container_x = container_init_x;
-                var container_y = container_init_y;
-                
-                if (phase < 40)
-                {
-                    container_x += phase;
-                    image_x += phase;
-                }
-                else if (phase < 80)
-                {
-                    container_x += 40;
-                    container_y += phase - 40;
-                    image_x += 40;
-                    image_y += phase - 40;
-                }
-                else if (phase < 120)
-                {
-                    container_x += 40 - (phase - 80);
-                    container_y += 40;
-                    image_x += 40 - (phase - 80);
-                    image_y += 40;
-                }
-                else
-                {
-                    container_y += 40 - (phase - 120);
-                    image_y += 40 - (phase - 120);
-                }
-                
-                container.style.left = container_x;
-                container.style.top = container_y;
-                image.style.left = image_x;
-                image.style.top = image_y;
-
-//                setTimeout(animate, 10, phase == 160 ? 0 : phase + 1);
-                setTimeout('animate(' + (phase == 160 ? 0 : phase + 1) + ');', 10);
-            }
-        </script>
-    </head>
-    <body onload="start_animation();" style="background-color: lightyellow;">
-        <div id="container" style="position: absolute; top: 100px; left: 100px; width: 340px; height: 340px; border: 1px dotted gray; background-color: orange; z-index: 2;">
-            <img id="image" src="ich_2008_square.jpg" style="position: absolute; top: 0px; left: 0px;" />
-        </div>
-<!--
-        <div style="position: absolute; top: 100px; left: 100px; border: 0px solid black; width: 380px; height: 40px; font-family: Tahoma; font-size: 1.5em; color: darkred;">you</div>
-        <div style="position: absolute; top: 440px; left: 100px; border: 0px solid black; width: 380px; height: 40px; font-family: Tahoma; font-size: 1.2em; color: darkred; text-align: right; vertical-align: bottom;">syne</div>
--->        
-    </body>
-</html>
+---
+title: snüppet spöt
+layout: default
+---
+{% for post in site.posts %}
+<div class="post">
+  <div>{{ post.date | date: '%Y-%m-%d' }} <a href="{{ post.url }}">&#8594;</a></div>
+  <div>
+    <h1>{{ post.title }}</h1>
+    {{ post.content }}
+  </div>
+</div>
+{% endfor %}
